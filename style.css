@@ -265,36 +265,31 @@ section {
 #about {
   position: relative;
 }
-  
-.title {
-  margin-bottom: 1rem; /* Reduce space below the title */
-}
-
-.section__text__p1 {
-  margin-bottom: 1rem; /* Optional: You can adjust the space between the "Get To Know More" text and "About Me" */
-}
 
 .about-containers {
-  display: flex;
   gap: 2rem;
-  margin-top: 1rem; /* Reduces the top margin of the container */
-  margin-bottom: 1.5rem; /* Reduces the bottom margin */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .about-details-container {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
-  flex-wrap: wrap; /* Ensure that the content is flexible */
 }
 
-.text-container {
-  margin-bottom: 1.5rem; /* Add some space at the bottom of the paragraph */
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
 }
 
 .details-container {
@@ -308,17 +303,14 @@ section {
 }
 
 .section-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   height: 80%;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-  cursor: pointer;
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
